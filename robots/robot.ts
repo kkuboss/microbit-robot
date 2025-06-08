@@ -1,9 +1,9 @@
 namespace robot.robots {
     export class Robot {
         /**
-         * Maximum speed while following a line with line assist
+         * Maximum speed while following a line with line assist (default 40)
          */
-        maxLineSpeed = 40
+        maxLineSpeed = 90 
         /**
          * Threshold to saturate a speed to 0. Avoids small speed jitter near stop state.
          */
