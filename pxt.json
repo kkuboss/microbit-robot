@@ -62,12 +62,13 @@
         "microbit.ts": "target:microbit"
     },
     "targetVersions": {
-        "target": "6.0.26",
-        "targetId": "microbit"
+        "target": "0.15.66",
+        "targetId": "maker"
     },
     "supportedTargets": [
-        "microbit",
-        "calliopemini"
+        "calliopemini",
+        "maker",
+        "microbit"
     ],
     "preferredEditor": "tsprj"
 }
